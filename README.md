@@ -42,6 +42,6 @@ The edited components all render `Date.now()` in their output. The final rendere
 ## Notes
 
 - The Next RSC numbers are only included for reference (compare between server/client HMR in Next).
-- For the root component, Vite and Next + turbopack are almost equally fast.
-- For the leaf component, Next + turbopack is about 68% faster.
+- For the root component (big with many imports and child components), Vite and Next + turbopack are almost equally fast.
+- For the leaf component (small, no imports), Next + turbopack is about 68% faster.
 - This is quite far from the claim that "turbopack is 10x faster than Vite" as we've seen from Vercel's marketing materials.
