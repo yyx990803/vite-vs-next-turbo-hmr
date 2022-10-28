@@ -24,7 +24,7 @@ The edited components all render `Date.now()` in their output. The final rendere
 
 - Recorded over 5 runs
 - Time in ms
-- Tested on M1 Mackbook Pro
+- Tested on M1 MacBook Pro
 
 |         | Vite (root) | Next (root) | Vite (leaf) | Next (leaf) |
 | ------- | ----------- | ----------- | ----------- | ----------- |
