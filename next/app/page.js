@@ -1,3 +1,4 @@
+'use client'
 
  import { Comp0 } from './comp0.jsx'
 import { Comp1 } from './comp1.jsx'
@@ -1002,7 +1003,7 @@ import { Comp999 } from './comp999.jsx'
 
 export default function Page() {
   return <div>
-    root: {Date.now()}
+    root: replace with Date.now() here
    <Comp0/>
 <Comp1/>
 <Comp2/>
