@@ -9,7 +9,7 @@
    npm init vite@latest # select React preset
    ```
 
-2. `genFiles.(m)js` is run in each project to generate 1000 components. All components are imported in the app's root component (in Next's case, the root page component) and rendered together. This step is already done and the files are already checked in, but the script is included for reference.
+2. `genFiles.(m)js` runs in each project to generate 1000 components. All components are imported in the app's root component (in Next's case, the root page component) and rendered together. This step is already done and the files are already checked in, but the script is included for reference.
 
 3. For each project, we run `watch.(m)js` in a separate Node process to get the exact timestamp of file change. This is used to mark the start of HMR.
 
