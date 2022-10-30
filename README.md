@@ -13,7 +13,7 @@
 
 3. For Next, `app/page.js` has the `'use client'` directive so it renders in client mode. This is necessary to ensure proper comparison, since server components incurs non-trivial HMR overhead (4x slower).
 
-4. For Vite, we are using `vite-plugin-swc-react-refresh` (with a pnpm patch to fix compat w/ latest vite) so that the React JSX & HMR transform are using swc instead of Babel. The reason Vite's default React plugin uses Babel is because using swc results in 58MB of extra install weight (when Vite itself is 19MB) for marginal HMR improvement. However, for the purpose of benchmarking, we should use the same transforms turbopack is using so that the comparison is focused on the HMR mechanisms of the two tools.
+4. For Vite, we are using `vite-plugin-swc-react-refresh` so that the React JSX & HMR transform are using swc instead of Babel. The reason Vite's default React plugin uses Babel is because using swc results in 58MB of extra install weight (when Vite itself is 19MB) for marginal HMR improvement. However, for the purpose of benchmarking, we should use the same transforms turbopack is using so that the comparison is focused on the HMR mechanisms of the two tools.
 
 5. For each project, we run `watch.(m)js` in a separate Node process to get the exact timestamp of file change. This is used to mark the start of HMR.
 

@@ -1,17 +1,12 @@
 lockfileVersion: 5.4
 
-patchedDependencies:
-  vite-plugin-swc-react-refresh@2.1.0:
-    hash: dskeoli5clmfv3ots7qm7p7wwe
-    path: patches/vite-plugin-swc-react-refresh@2.1.0.patch
-
 specifiers:
   '@types/react': ^18.0.22
   '@types/react-dom': ^18.0.7
   react: ^18.2.0
   react-dom: ^18.2.0
   vite: ^3.2.0
-  vite-plugin-swc-react-refresh: ^2.1.0
+  vite-plugin-swc-react-refresh: ^2.2.0
 
 dependencies:
   react: 18.2.0
@@ -21,7 +16,7 @@ devDependencies:
   '@types/react': 18.0.24
   '@types/react-dom': 18.0.8
   vite: 3.2.0
-  vite-plugin-swc-react-refresh: 2.1.0_dskeoli5clmfv3ots7qm7p7wwe_vite@3.2.0
+  vite-plugin-swc-react-refresh: 2.2.0_vite@3.2.0
 
 packages:
 
@@ -550,15 +545,14 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /vite-plugin-swc-react-refresh/2.1.0_dskeoli5clmfv3ots7qm7p7wwe_vite@3.2.0:
-    resolution: {integrity: sha512-6YWmPG44ghIu75RbXkDg9OKC2F79jQ4wL3siIMQNKkZ05/PMYYp3DVv7qkXcXBCSjYHbG1bIpDvex8kGxDxIfQ==}
+  /vite-plugin-swc-react-refresh/2.2.0_vite@3.2.0:
+    resolution: {integrity: sha512-OMVYgynu69ayMkegwPpGe7rc8CJ5fe+wFfpxtdy43mfU7jxNAw9H3uYw5RNFToGkPFETQZbxDzyzODx56+bmSg==}
     peerDependencies:
       vite: ^2 || ^3
     dependencies:
       '@swc/core': 1.3.11
       vite: 3.2.0
     dev: true
-    patched: true
 
   /vite/3.2.0:
     resolution: {integrity: sha512-Ovj7+cqIdM1I0LPCk2CWxzgADXMix3NLXpUT6g7P7zg/a9grk/TaC3qn9YMg7w7M0POIVCBOp1aBANJW+RH7oA==}
